@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding-top: 20%;
+  font-family: 'Courier New', Courier, monospace;
+  color: azure;
+  outline: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),        url("/self_study_web/prototype3/products/woolen_pants.jpg");
+  background-size: cover;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30%;
+}
+.main-container .header-contianer{
+  display: flex;
+  flex-direction: column;
+}
+.header-contianer img{
+  padding: 0 5px 15px;
+  width: 200px;
+  border: none;
+  object-fit: contain;
+}
+.header-contianer .date_time{
+  padding-bottom: 50px;
+  font-size: 15px;
+}
+.section-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.section-container .links-container{
+  display: flex;
+  flex-direction: column;
+}
+.section-container .links-container a{
+  margin: 10px 0;
+  text-decoration: none;
+  color: azure;
+  font-size: 15px;
+  width: fit-content;
+  height: fit-content;
+}
+.section-container .links-container a:hover{
+  background: #ff1414;
+}
+.socials-container{
+  margin-top: 20px;
+}
+.socials-container a{
+  color: grey;
+  margin: 0 5px;
+}
+.socials-container a:hover{
+  color: azure;
+}
+
+@media (max-width: 600px) {
+  body{
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),        url("/self_study_web/prototype3/logo/landingPage.jpg");
+    background-size: 700px;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    padding: 0;
+  }
+  .main-container .header-contianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
