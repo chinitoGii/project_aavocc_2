@@ -7,7 +7,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
   color: azure;
   outline: none;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),        url("../products/woolen_pants.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../products/woolen_pants.jpg");
   background-size: cover;
 }
 .main-container{
@@ -63,7 +63,7 @@ body{
 @media (max-width: 600px) {
   body{
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),        url("/self_study_web/prototype3/logo/landingPage.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../logo/landingPage.jpg");
     background-size: 700px;
   }
   .main-container{
